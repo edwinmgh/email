@@ -1,0 +1,18 @@
+### prueba
+get http://localhost:5000/usuarios
+
+### agregar post
+POST http://localhost:5000/usuarios
+Content-Type: application/json
+
+{
+    "nombre": "hola",
+    "email": "edwin1",
+    "celular": "6361106937",
+    "pais": "mexico",
+    "ciudad": "ncg",
+    "password": "123456"
+}
+
+###email
+get http://localhost:5000/enviar
